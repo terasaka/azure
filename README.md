@@ -14,7 +14,8 @@ Obs. Scripts validados utilizando Ubuntu 18.04
 - [Criando Lab](https://github.com/terasaka/azure/blob/master/createLab.sh)
 
 Para utilizar o script de criação do Lab, apenas altere as variaveis de acordo a sua necessidade.  
-Esse sccript cria os seguinte recursos:
+  
+Esse script cria os seguinte recursos:
 
 - Vnet.
 - Subnet.
@@ -23,3 +24,5 @@ Esse sccript cria os seguinte recursos:
 - 2 VMs UbuntuLTS - Standard_B1ls com IPs públicos.
 - NSG com regras de inbound para as portas 22 com a origem do seu ip de saida.
 - Deleta as regras de inbound para as portas 22 com origem any.
+
+![Lab](https://github.com/terasaka/azure/blob/master/img/infra.svg)
